@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC PRETA",
+      "price": 5.98
+    },
+    {
+      "id": 2,
+      "name": "Celular Motorola g8",
+      "price": 2000.98
+    },
+    {
+      "id": 3,
+      "name": "Fogão",
+      "price": 1200
+    },
+    {
+      "name": "Geladeira",
+      "price": "2009.50",
+      "id": 4
+    }
+  ]
+}
