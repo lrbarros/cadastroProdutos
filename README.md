@@ -23,3 +23,4 @@
 
 # alteração de arquivos de configuração
 1-angular.json altere o valor inlineTemplate e inlineStyle para false
+devido ao uso do minimal é gerado essa config inline
