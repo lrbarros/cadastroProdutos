@@ -19,6 +19,16 @@
       "name": "Geladeira",
       "price": "2009.50",
       "id": 4
+    },
+    {
+      "name": "carro",
+      "price": "21009.50",
+      "id": 5
+    },
+    {
+      "name": "carro 2",
+      "price": "31009.50",
+      "id": 6
     }
   ]
 }
