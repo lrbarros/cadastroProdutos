@@ -31,3 +31,5 @@ devido ao uso do minimal é gerado essa config inline
 # criar os componentes básicos
 1. Criar o header digite  ng g c components/template/header
 2. Criar o footer digite  ng g c components/template/footer
+3. Criar o componente de navegação ng g c components/template/nav
+4. Criar o componente home ng g c views/home

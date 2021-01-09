@@ -30,5 +30,27 @@
       "price": "31009.50",
       "id": 6
     }
+  ],
+  "clients":[
+  	{
+  		"id":1,
+  		"name":"luiz",
+  		"tel":"4333330022",
+  		"address":{
+  			"street":"Rua Paranoá",
+  			"number":43,
+  			"city":"Ibiporã"
+  		}
+  	},
+  	{
+  		"id":2,
+  		"name":"Kellen",
+  		"tel":"4333330022",
+  		"address":{
+  			"street":"Rua Paranoá",
+  			"number":43,
+  			"city":"Ibiporã"
+  		}
+  	}
   ]
 }
