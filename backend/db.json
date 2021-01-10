@@ -2,55 +2,65 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC PRETA",
-      "price": 5.98
+      "name": "Bolo de pote ",
+      "price": 8,
+      "code": "b1",
+      "cost": 4,
+      "percent": 100,
+      "active": true,
+      "shelflife": 7
     },
     {
       "id": 2,
-      "name": "Celular Motorola g8",
-      "price": 2000.98
+      "name": "Copo da felicidade",
+      "price": 10,
+      "cost": 5,
+      "code": "b2",
+      "percent": 100,
+      "active": true,
+      "shelflife": 7
     },
     {
-      "id": 3,
-      "name": "Fogão",
-      "price": 1200
+      "name": "bllll",
+      "price": "7",
+      "cost": "5",
+      "code": "qwertyuiop",
+      "percent": "100",
+      "active": false,
+      "shelflife": "7",
+      "id": 3
     },
     {
-      "name": "Geladeira",
-      "price": "2009.50",
+      "name": "testeApi",
+      "price": 3,
+      "cost": 4,
+      "code": "rewer",
+      "percent": 3,
+      "active": true,
+      "shelflife": 3,
       "id": 4
-    },
-    {
-      "name": "carro",
-      "price": "21009.50",
-      "id": 5
-    },
-    {
-      "name": "carro 2",
-      "price": "31009.50",
-      "id": 6
     }
   ],
-  "clients":[
-  	{
-  		"id":1,
-  		"name":"luiz",
-  		"tel":"4333330022",
-  		"address":{
-  			"street":"Rua Paranoá",
-  			"number":43,
-  			"city":"Ibiporã"
-  		}
-  	},
-  	{
-  		"id":2,
-  		"name":"Kellen",
-  		"tel":"4333330022",
-  		"address":{
-  			"street":"Rua Paranoá",
-  			"number":43,
-  			"city":"Ibiporã"
-  		}
-  	}
+  "clients": [
+    {
+      "id": 1,
+      "name": "luiz",
+      "tel": "4333330022",
+      "address": {
+        "street": "Rua Paranoá",
+        "number": 43,
+        "city": "Ibiporã"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Kellen",
+      "tel": "4333330022",
+      "address": {
+        "street": "Rua Paranoá",
+        "number": 43,
+        "city": "Ibiporã"
+      }
+    }
   ]
 }
