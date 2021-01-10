@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule ,LOCALE_ID } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -25,6 +25,11 @@ import { MatTableModule } from '@angular/material/table';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component'
+
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -54,7 +59,10 @@ import { ProductReadComponent } from './components/product/product-read/product-
     MatInputModule,
     MatTableModule,
   ],
-  providers: [],
+  providers: [
+    {provide:LOCALE_ID,
+    useValue:'pt-BR'},
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
