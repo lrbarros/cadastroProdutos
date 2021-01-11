@@ -1,7 +1,6 @@
 import { ProductService } from './../product.service';
 import { Product } from './../product.model';
 import { Component, OnInit } from '@angular/core';
-import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'app-product-read',
@@ -11,7 +10,7 @@ import { MatTableDataSource } from '@angular/material/table';
 export class ProductReadComponent implements OnInit {
 
   products: Product[] = [] ;
-  displayedColumns: string[] = ['id','code', 'name','cost','percent','price','shelflife','active'];
+  displayedColumns: string[] = ['id','code', 'name','cost','percent','price','shelflife','active','action'];
 
   constructor(private productService : ProductService, ) {
     
