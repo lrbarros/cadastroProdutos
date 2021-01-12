@@ -22,7 +22,7 @@ export class ProductService {
     return this.http.get<Product[]>(this.baseUrl);
   }
 
-  readById(id : string):Observable<Product>{
+  readById(id : string ):Observable<Product>{
     const url = `${this.baseUrl}/${id}`;
     return this.http.get<Product>(url);
   }
@@ -30,9 +30,13 @@ export class ProductService {
     const url = `${this.baseUrl}/${product.id}`;
     return this.http.put<Product>(url,product);
   }
+  delete(id : string):Observable<Product>{
+    const url = `${this.baseUrl}/${id}`;
+    return  this.http.delete<Product>(url);
+  }
   showMessage(msg : string): void{
     this.snackBar.open(msg,'x',{
-      duration:3000,
+      duration:4000,
       horizontalPosition:"right",
       verticalPosition:"top"
     });

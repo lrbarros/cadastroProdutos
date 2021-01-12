@@ -6,7 +6,7 @@
       "price": 8,
       "code": "b1",
       "cost": 4,
-      "percent": 1.00,
+      "percent": 1,
       "active": true,
       "shelflife": 7
     },
@@ -16,26 +16,16 @@
       "price": 10,
       "cost": 5,
       "code": "b2",
-      "percent": 1.00,
+      "percent": 1,
       "active": true,
       "shelflife": 7
     },
     {
-      "name": "bllll",
-      "price": "7",
-      "cost": "5",
-      "code": "qwertyuiop",
-      "percent": 1.00,
-      "active": false,
-      "shelflife": "7",
-      "id": 3
-    },
-    {
-      "name": "testeApi",
-      "price": 0.30,
-      "cost": 4,
-      "code": "rewer",
-      "percent": 0.3,
+      "name": "Teste update",
+      "price": 0.3,
+      "cost": 1,
+      "code": "T01",
+      "percent": 0.4,
       "active": true,
       "shelflife": 3,
       "id": 4
