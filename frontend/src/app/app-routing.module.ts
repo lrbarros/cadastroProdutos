@@ -6,6 +6,7 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { ClientCrudComponent } from './views/client-crud/client-crud.component';
 
 const routes: Routes = [{
   path:"",
@@ -25,7 +26,11 @@ const routes: Routes = [{
 {
   path:"products/delete/:id",
   component:ProductDeleteComponent
-}
+},
+{
+  path:"clients",
+  component:ClientCrudComponent
+},
 ];
 
 @NgModule({

@@ -23,14 +23,17 @@ import { FormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
 
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component'
-
-import localePt from '@angular/common/locales/pt';
-import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
+import { ClientCrudComponent } from './views/client-crud/client-crud.component';
+import { ClientReadComponent } from './components/client/client-read/client-read.component';
+
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
 registerLocaleData(localePt);
 
 @NgModule({
@@ -45,6 +48,8 @@ registerLocaleData(localePt);
     ProductReadComponent,
     ProductUpdateComponent,
     ProductDeleteComponent,
+    ClientCrudComponent,
+    ClientReadComponent,
     ],
   imports: [
     BrowserModule,

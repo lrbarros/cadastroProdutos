@@ -19,38 +19,73 @@
       "percent": 1,
       "active": true,
       "shelflife": 7
-    },
-    {
-      "name": "Teste update",
-      "price": 0.3,
-      "cost": 1,
-      "code": "T01",
-      "percent": 0.4,
-      "active": true,
-      "shelflife": 3,
-      "id": 4
     }
   ],
   "clients": [
     {
       "id": 1,
-      "name": "luiz",
-      "tel": "4333330022",
-      "address": {
+      "firstname": "luiz",
+      "lastname":"barros",
+      "instagram":"@luizRic",
+      "cpf":"00000000182",
+      "dateofBirth":"1985-10-12",
+      "email":"eu@eu.com",
+      "tel": [
+        {
+          "number":"4399999999",
+          "whats": true
+        }, {
+          "number":"4333330022",
+          "whats": false
+        }
+        ],
+      "address": [{
         "street": "Rua Paranoá",
         "number": 43,
-        "city": "Ibiporã"
-      }
+        "neighborhood":"Jardim Brasilia",
+        "city": "Ibiporã",
+        "zipcode":"86200000"
+      },
+      {
+        "street": "Rua Paranoá",
+        "number": 43,
+        "neighborhood":"Jardim Brasilia",
+        "city": "Ibiporã",
+        "zipcode":"86200000"
+      }]
     },
     {
       "id": 2,
-      "name": "Kellen",
-      "tel": "4333330022",
-      "address": {
+      "firstname": "Kellen",
+      "lastname":"barros",
+      "instagram":"@Kellen",
+      "cpf":"00000000191",
+      "dateofBirth":"1984-06-12",
+      "email":"eu@eu.com",
+      "tel": [
+              {
+                "number":"4399999999",
+                "whats": true
+              }, 
+              {
+                "number":"4333330022",
+                "whats": false
+              }
+              ],
+      "address": [{
         "street": "Rua Paranoá",
         "number": 43,
-        "city": "Ibiporã"
-      }
+        "neighborhood":"Jardim Brasilia",
+        "city": "Ibiporã",
+        "zipcode":"86200000"
+      },
+      {
+        "street": "Rua Paranoá",
+        "number": 43,
+        "neighborhood":"Jardim Brasilia",
+        "city": "Ibiporã",
+        "zipcode":"86200000"
+      }]
     }
   ]
 }
