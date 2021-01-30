@@ -25,67 +25,72 @@
     {
       "id": 1,
       "firstname": "luiz",
-      "lastname":"barros",
-      "instagram":"@luizRic",
-      "cpf":"00000000182",
-      "dateofBirth":"1985-10-12",
-      "email":"eu@eu.com",
+      "lastname": "barros",
+      "instagram": "@luizRic",
+      "cpf": "00000000182",
+      "dateofBirth": "1985-10-12",
+      "email": "eu@eu.com",
       "tel": [
         {
-          "number":"4399999999",
+          "number": "4399999999",
           "whats": true
-        }, {
-          "number":"4333330022",
+        },
+        {
+          "number": "4333330022",
           "whats": false
         }
-        ],
-      "address": [{
-        "street": "Rua Paranoá",
-        "number": 43,
-        "neighborhood":"Jardim Brasilia",
-        "city": "Ibiporã",
-        "zipcode":"86200000"
-      },
-      {
-        "street": "Rua Paranoá",
-        "number": 43,
-        "neighborhood":"Jardim Brasilia",
-        "city": "Ibiporã",
-        "zipcode":"86200000"
-      }]
+      ],
+      "address": [
+        {
+          "street": "Rua Paranoá",
+          "number": 43,
+          "neighborhood": "Jardim Brasilia",
+          "city": "Ibiporã",
+          "zipcode": "86200000"
+        },
+        {
+          "street": "Rua Paranoá",
+          "number": 43,
+          "neighborhood": "Jardim Brasilia",
+          "city": "Ibiporã",
+          "zipcode": "86200000"
+        }
+      ]
     },
     {
       "id": 2,
       "firstname": "Kellen",
-      "lastname":"barros",
-      "instagram":"@Kellen",
-      "cpf":"00000000191",
-      "dateofBirth":"1984-06-12",
-      "email":"eu@eu.com",
+      "lastname": "barros",
+      "instagram": "@Kellen",
+      "cpf": "00000000191",
+      "dateofBirth": "1984-06-12",
+      "email": "eu@eu.com",
       "tel": [
-              {
-                "number":"4399999999",
-                "whats": true
-              }, 
-              {
-                "number":"4333330022",
-                "whats": false
-              }
-              ],
-      "address": [{
-        "street": "Rua Paranoá",
-        "number": 43,
-        "neighborhood":"Jardim Brasilia",
-        "city": "Ibiporã",
-        "zipcode":"86200000"
-      },
-      {
-        "street": "Rua Paranoá",
-        "number": 43,
-        "neighborhood":"Jardim Brasilia",
-        "city": "Ibiporã",
-        "zipcode":"86200000"
-      }]
+        {
+          "number": "4399999999",
+          "whats": true
+        },
+        {
+          "number": "4333330022",
+          "whats": false
+        }
+      ],
+      "address": [
+        {
+          "street": "Rua Paranoá",
+          "number": 43,
+          "neighborhood": "Jardim Brasilia",
+          "city": "Ibiporã",
+          "zipcode": "86200000"
+        },
+        {
+          "street": "Rua Paranoá",
+          "number": 43,
+          "neighborhood": "Jardim Brasilia",
+          "city": "Ibiporã",
+          "zipcode": "86200000"
+        }
+      ]
     }
   ]
 }
